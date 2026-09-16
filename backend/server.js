@@ -4,7 +4,6 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const OpenAI = require("openai");
 require("dotenv").config();
-const { HttpsProxyAgent } = require("https-proxy-agent");
 
 const app = express();
 
